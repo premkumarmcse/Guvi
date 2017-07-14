@@ -9,7 +9,7 @@ public class RemoveSpaces {						//level=hunter&set=10
 		Scanner sc=new Scanner(System.in);
 		String s=sc.nextLine();
 		
-		System.out.println(s.trim().replaceAll("a{2,}"," "));
+		System.out.println(s.trim().replaceAll("\\s{2,}"," "));
 		sc.close();
 		}
 	}
