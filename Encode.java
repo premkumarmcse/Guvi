@@ -16,8 +16,8 @@ public class Encode {													//Codekata Pro Set 7 - 1
 		int e=0;
 		int f=0;
 		
-		char[] c=s1.toCharArray();
-		char[] d=s2.toCharArray();
+		char[] c=s1.toCharArray().toLowerCase();
+		char[] d=s2.toCharArray().toLowerCase();
 		
 		for(int i=0;i<c.length;i++)
 		{
