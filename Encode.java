@@ -10,14 +10,14 @@ public class Encode {													//Codekata Pro Set 7 - 1
 
 		Scanner sc=new Scanner(System.in);
 		
-		String s1=sc.next();
-		String s2=sc.next();
+		String s1=sc.next().toLowerCase();
+		String s2=sc.next().toLowerCase();
 		
 		int e=0;
 		int f=0;
 		
-		char[] c=s1.toCharArray().toLowerCase();
-		char[] d=s2.toCharArray().toLowerCase();
+		char[] c=s1.toCharArray();
+		char[] d=s2.toCharArray();
 		
 		for(int i=0;i<c.length;i++)
 		{
